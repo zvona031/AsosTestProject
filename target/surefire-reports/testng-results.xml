@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-05T12:19:38Z" name="AllTestsSuite" finished-at="2020-02-05T12:21:38Z" duration-ms="119511">
+    <groups>
+    </groups>
+    <test started-at="2020-02-05T12:19:38Z" name="Asos web page tests" finished-at="2020-02-05T12:21:38Z" duration-ms="119511">
+      <class name="tests.GoToCheckoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GoToCheckoutTest@2cbb3d47]" started-at="2020-02-05T12:19:38Z" name="setup" finished-at="2020-02-05T12:19:40Z" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HoodieCheckout()[pri:0, instance:tests.GoToCheckoutTest@2cbb3d47]" started-at="2020-02-05T12:19:40Z" name="HoodieCheckout" finished-at="2020-02-05T12:19:57Z" duration-ms="16542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoodieCheckout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.GoToCheckoutTest@2cbb3d47]" started-at="2020-02-05T12:19:57Z" name="close" finished-at="2020-02-05T12:19:57Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GoToCheckoutTest@2cbb3d47]" started-at="2020-02-05T12:19:57Z" name="setup" finished-at="2020-02-05T12:19:58Z" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ShoesCheckout()[pri:0, instance:tests.GoToCheckoutTest@2cbb3d47]" started-at="2020-02-05T12:19:58Z" name="ShoesCheckout" finished-at="2020-02-05T12:20:13Z" duration-ms="14967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoesCheckout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.GoToCheckoutTest@2cbb3d47]" started-at="2020-02-05T12:20:13Z" name="close" finished-at="2020-02-05T12:20:13Z" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.GoToCheckoutTest -->
+      <class name="tests.SavingProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SavingProductTest@7ff95560]" started-at="2020-02-05T12:20:59Z" name="setup" finished-at="2020-02-05T12:21:00Z" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkIfShoesAdded()[pri:0, instance:tests.SavingProductTest@7ff95560]" started-at="2020-02-05T12:21:00Z" name="checkIfShoesAdded" finished-at="2020-02-05T12:21:10Z" duration-ms="9818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfShoesAdded -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.SavingProductTest@7ff95560]" started-at="2020-02-05T12:21:10Z" name="close" finished-at="2020-02-05T12:21:10Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SavingProductTest@7ff95560]" started-at="2020-02-05T12:21:10Z" name="setup" finished-at="2020-02-05T12:21:11Z" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="removeShoesFromFavorites()[pri:0, instance:tests.SavingProductTest@7ff95560]" started-at="2020-02-05T12:21:11Z" name="removeShoesFromFavorites" finished-at="2020-02-05T12:21:29Z" duration-ms="17544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeShoesFromFavorites -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.SavingProductTest@7ff95560]" started-at="2020-02-05T12:21:29Z" name="close" finished-at="2020-02-05T12:21:29Z" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SavingProductTest@7ff95560]" started-at="2020-02-05T12:21:29Z" name="setup" finished-at="2020-02-05T12:21:30Z" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="saveShoes()[pri:0, instance:tests.SavingProductTest@7ff95560]" started-at="2020-02-05T12:21:30Z" name="saveShoes" finished-at="2020-02-05T12:21:38Z" duration-ms="7777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveShoes -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.SavingProductTest@7ff95560]" started-at="2020-02-05T12:21:38Z" name="close" finished-at="2020-02-05T12:21:38Z" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.SavingProductTest -->
+      <class name="tests.PagePreferencesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PagePreferencesTest@1198b989]" started-at="2020-02-05T12:20:47Z" name="setup" finished-at="2020-02-05T12:20:48Z" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ChangeCountryAndCurrency()[pri:0, instance:tests.PagePreferencesTest@1198b989]" started-at="2020-02-05T12:20:48Z" name="ChangeCountryAndCurrency" finished-at="2020-02-05T12:20:59Z" duration-ms="11321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeCountryAndCurrency -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.PagePreferencesTest@1198b989]" started-at="2020-02-05T12:20:59Z" name="close" finished-at="2020-02-05T12:20:59Z" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.PagePreferencesTest -->
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@527e5409]" started-at="2020-02-05T12:20:13Z" name="setup" finished-at="2020-02-05T12:20:14Z" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterWithEmail()[pri:0, instance:tests.RegisterTest@527e5409]" started-at="2020-02-05T12:20:14Z" name="RegisterWithEmail" finished-at="2020-02-05T12:20:26Z" duration-ms="12485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithEmail -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.RegisterTest@527e5409]" started-at="2020-02-05T12:20:26Z" name="close" finished-at="2020-02-05T12:20:27Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@527e5409]" started-at="2020-02-05T12:20:27Z" name="setup" finished-at="2020-02-05T12:20:28Z" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterWithGmail()[pri:0, instance:tests.RegisterTest@527e5409]" started-at="2020-02-05T12:20:28Z" name="RegisterWithGmail" finished-at="2020-02-05T12:20:47Z" duration-ms="19283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithGmail -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.RegisterTest@527e5409]" started-at="2020-02-05T12:20:47Z" name="close" finished-at="2020-02-05T12:20:47Z" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.RegisterTest -->
+    </test> <!-- Asos web page tests -->
+  </suite> <!-- AllTestsSuite -->
+</testng-results>
